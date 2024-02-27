@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\dataset",
+    "\\resnet_50_model"
   ],
-  "SelectedNode": "\\ocular-disease-recognition.ipynb",
+  "SelectedNode": "\\Data-Distribution.ipynb",
   "PreviewInSolutionExplorer": false
 }
