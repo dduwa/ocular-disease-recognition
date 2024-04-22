@@ -11,13 +11,18 @@ Addressing the common challenge of class imbalance in medical image datasets, ou
 
 ### Models Employed
 The following pre-trained models from Keras were used, selected for their proven efficiency in image classification tasks:
-- VGG16
-- VGG19
-- Xception
-- ResNet50
-- InceptionV3
+- [VGG16](https://keras.io/2.16/api/applications/vgg/)
+- VGG19 (same link as VGG16)
+- [Xception](https://keras.io/2.16/api/applications/xception/)
+- [ResNet50](https://keras.io/2.16/api/applications/resnet/)
+- [InceptionV3](https://keras.io/2.16/api/applications/inceptionv3/)
 
 These models were chosen based on their performance metrics, including accuracy and precision, in classifying images into the relevant ocular disease categories.
+
+### XAI Techniques Used 
+- [SHapley Additive exPlanations](https://keras.io/2.16/api/applications/resnet/)
+- [Local Interpretable Model-agnostic Explanations](https://github.com/marcotcr/lime)
+- [Grad-CAM](https://github.com/marcotcr/lime/blob/master/doc/notebooks/Tutorial%20-%20Image%20Classification%20Keras.ipynb)
 
 ## Getting Started
 
@@ -41,3 +46,11 @@ git clone https://github.com/dduwa/ocular-disease-recognition-system.git
 
 ## Explainability AI (XAI) Techniques 
 To enhance the transparency of the model predictions, there is implementation of XAI techniques for the top performing model which is VGG16. These techniques are designed to provide insights into the decision-making process of the neural network, thereby making the outcomes more interpretable for medical professionals. To run the XAI implementations please upload the images within the **XAI Test Images** folder to the Colab environment. 
+
+## Extra Files 
+- **K_Fold_Cross_Validation_Attempt** folder: Implementation attempt of K-Fold Cross Validation for VGG16 and Resnet model to resolve overfitting caused by augmentation and sampling 
+- **RandomSamplingModels** folder: Has the implementation of using random sampling in attempts to increase model accuracy. 
+- **JupyterNotebookInVSImplementations** folder: Contains the implementation of the notebooks in Visual Studio Code, before switching to Google Colab after issues with running out of computational resources. 
+
+## Authors
+- **[Duwa Khan](https://github.com/dduwa)**
