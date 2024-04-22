@@ -21,8 +21,8 @@ These models were chosen based on their performance metrics, including accuracy 
 
 ### XAI Techniques Used 
 - [SHapley Additive exPlanations](https://keras.io/2.16/api/applications/resnet/)
-- [Local Interpretable Model-agnostic Explanations](https://github.com/marcotcr/lime)
-- [Grad-CAM](https://github.com/marcotcr/lime/blob/master/doc/notebooks/Tutorial%20-%20Image%20Classification%20Keras.ipynb)
+- [Local Interpretable Model-agnostic Explanations](https://github.com/marcotcr/lime/blob/master/doc/notebooks/Tutorial%20-%20Image%20Classification%20Keras.ipynb)
+- [Grad-CAM](https://raghakot.github.io/keras-vis/)
 
 ## Getting Started
 
